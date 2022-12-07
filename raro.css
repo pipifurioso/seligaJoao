@@ -1,0 +1,82 @@
+header {
+   background-color: #00ff00;
+   padding: 20px 0;
+}
+
+.caixa {
+position: relative;
+  width: 900px;
+margin-left: 90px;
+}
+
+.caixa img{
+width: 200px;
+
+}
+
+nav{
+position: absolute;
+top: 92px;
+right: 250;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 30px;
+}
+
+.tipos{
+  position: absolute;
+  top: 15px;
+  right: 130px;
+ font-weight: bold;
+ font-size: 35px
+}
+
+nav a {
+ text-transform: uppercase;
+ text-decoration: none;
+ font-weight: bold;
+ font-size: 30px;
+ color: black
+}
+
+nav a:hover {
+  color: #9ACD32;
+  text-decoration: underline;
+}
+
+body{
+  margin: 0px;
+  background-color: #00ffff
+}
+
+.pou {
+  border: 7px solid black;
+  border-radius: 13px;
+  display: inline-block;
+  margin: 50px;
+  padding: 4px 4px;
+margin-left: 300px;
+}
+
+.pou img{
+width: 225px;
+
+}
+
+footer{
+text-align: center;
+background: url("padrão.jpg");
+padding: 20px 0;
+}
+
+.Copyright {
+color: white;
+font-size: 13px;
+}
+
+footer img{
+width: 100px;
+
+}

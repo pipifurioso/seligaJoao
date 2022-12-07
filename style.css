@@ -1,0 +1,102 @@
+header {
+   background-color: #00ff00;
+   padding: 20px 0;
+}
+
+.caixa {
+position: relative;
+  width: 900px;
+margin-left: 90px;
+}
+
+.caixa img{
+width: 200px;
+
+}
+
+.tipos{
+  position: absolute;
+  top: 15px;
+  right: 130px;
+ font-weight: bold;
+ font-size: 35px
+}
+
+nav{
+position: absolute;
+top: 92px;
+right: 250;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 30px;
+}
+
+nav a {
+ text-transform: uppercase;
+ text-decoration: none;
+ font-weight: bold;
+ font-size: 30px;
+ color: black
+}
+
+nav a:hover {
+  color: #9ACD32;
+  text-decoration: underline;
+}
+
+body{
+  margin: 0px;
+  background-color: #00ffff
+}
+
+.poucategoria li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 40 1.5%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border: 5px solid #778899;
+    border-bottom-width: 18px;
+    border-bottom-color: #778899;
+    border-bottom-style: solid;
+    border-radius: 20px;
+}
+
+.poucategoria li:hover{
+border-color: #9ACD32;
+}
+
+.poucategoria li:active{
+border-color: #DAA520;
+}
+
+.poucategoria li:hover h2{
+border-color: #9ACD32;
+font-size: 34px;
+}
+
+.poucategoria h2 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+
+footer{
+text-align: center;
+background: url("padrão.jpg");
+padding: 20px 0;
+}
+
+.Copyright {
+color: white;
+font-size: 13px;
+}
+
+footer img{
+width: 100px;
+
+}
